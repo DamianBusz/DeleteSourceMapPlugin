@@ -49,7 +49,6 @@ class DeleteSourceMapPlugin {
           .forEach((name) => {
             countMatchMapAssets += 1
            const existsAt = `${outputPath}/${name}`
-            console.log(`removed ${outputPath}/${name}`)
           
            fs.unlinkSync(existsAt)
   
