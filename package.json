@@ -1,0 +1,9 @@
+{
+  "name": "DeleteSourceMapPlugin",
+  "version": "1.0.0",
+  "description": "Webpack 5 plugin that will remove all SourceMaps url from files and remove .map files after compilation is done",
+  "main": "index.js",
+  "repository": "https://github.com/DamianBusz/DeleteSourceMapPlugin.git",
+  "author": "Damian Busz <busz.d@outlook.com>",
+  "license": "MIT"
+}
